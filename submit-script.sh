@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#SBATCH --job-name=conv1D
+#SBATCH --job-name=LSTM
 #SBATCH --nodes=1
 #SBATCH -A hai_hhhack
 #SBATCH --partition booster
 #SBATCH --gres gpu
 #SBATCH --time 01:30:00
-#SBATCH -o conv1D_1.out
-#SBATCH -e conv1D_1.err
+#SBATCH -o LSTM_1.out
+#SBATCH -e LSTM_1.err
 #SBATCH --mail-user=itsmohitanand@gmail.com
 
 module purge

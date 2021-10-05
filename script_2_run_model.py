@@ -14,17 +14,20 @@
 # ==========================================================
 
 from RR.io import read_data
-from RR.models import Conv1D
+from RR.models import Conv1D, LSTM
 
 import tensorflow as tf
 import numpy as np
 import time
 
+import matplotlib.pylab as plt
 
 from RR.metrics import NashSutcliffeEfficiency
 from RR.cfg import SAVE_FOLDER
 
 Xd, Yd, elp, flp, slp, area = read_data()
+
+Yd = Yd #flow changed to flow per unit area
 
 # Lets do a 80% 10% and 10% split for train and validation and test 
 tot_num = Xd.shape[0]
@@ -32,10 +35,6 @@ tot_num = Xd.shape[0]
 
 X = np.zeros((Xd.shape[0]-365-1, 365, 3))
 Y = np.zeros(Xd.shape[0]-365-1)
-
-Y = Y/area #flow changed to flow per unit area
-
-
 
 for i in range(Xd.shape[0]-365-1):
     X[i, :, 0] = Xd[i:i+365,0]
@@ -63,7 +62,7 @@ Y_val = Y[strt_val:end_val]
 Y_test = Y[strt_test:]
 
 
-batch_size = 128
+batch_size = 2048
 
 
 x_spec = tf.TensorSpec(shape = (None, 365, 3), dtype = tf.float32)
@@ -93,14 +92,16 @@ train_dataset = tf_train_data.map(norm).map(cast)
 val_dataset = tf_val_data.map(norm).map(cast)
 
 loss_object = tf.keras.losses.MeanSquaredError()
-learning_rate = 2 * 1e-3
+
+learning_rate = 2 * 1e-4
+
 optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
 
 train_acc_metric = NashSutcliffeEfficiency()
 
 val_acc_metric = NashSutcliffeEfficiency()
 
-model = Conv1D()
+model = LSTM() # Conv1D()
 
 model.model(input_shape=(365, 3)).summary() 
 
@@ -135,20 +136,33 @@ def train_data_for_one_epoch():
 
 def perform_validation():
     losses = []
+    y_true_list = []
+    y_pred_list = []
     for x_val, y_val in val_dataset:
       
         y_pred = model(x_val)
         val_loss = loss_object(y_true=y_val, y_pred=y_pred)
         losses.append(val_loss)
         val_acc_metric(y_val, y_pred)
+
+        y_true_list.extend(y_val)
+        y_pred_list.extend(y_pred)
+
+    fig, ax = plt.subplots(1,1, figsize = (10,6))
+    ax.plot(y_true_list[:365])
+    ax.plot(y_pred_list[:365])
+    plt.savefig('val_plot.png')
+    plt.close()
+
     return losses
 
 
 epochs_val_losses, epochs_train_losses = [], []
 
-strt_time = time.time()
 
-for epoch in range(101):
+
+for epoch in range(501):
+    strt_time = time.time()
     # Run through  training batch
     print("Start of epoch %d" % (epoch))
 
@@ -170,7 +184,7 @@ for epoch in range(101):
         model.save(fpath)
 
     print(
-        "\n Epoch %s: Train loss: %.4f  Validation Loss: %.4f, Train PCC: %.4f, Validation PCC %.4f"
+        "\n Epoch %s: Train loss: %.4f  Validation Loss: %.4f, Train NSE: %.4f, Validation NSE %.4f"
         % (
             epoch,
             float(losses_train_mean),

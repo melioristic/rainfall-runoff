@@ -23,19 +23,19 @@ class Conv1D(tf.keras.Model):
     super(Conv1D, self).__init__(**kwargs)
     
     # Initialise the layers here
-    reg_val  = 1.0
-    self.l1 = tf.keras.layers.Conv1D(filters=8, kernel_size = 3,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
+    reg_val  = 0.0
+    self.l1 = tf.keras.layers.Conv1D(filters=128, kernel_size = 7,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
     self.l2 = tf.keras.layers.MaxPool1D(2)
-    self.l3 = tf.keras.layers.Conv1D(filters=8, kernel_size = 3,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
+    self.l3 = tf.keras.layers.Conv1D(filters=128, kernel_size = 7,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
     self.l4 = tf.keras.layers.MaxPool1D(2)
-    self.l5 = tf.keras.layers.Conv1D(filters=16, kernel_size = 3,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
+    self.l5 = tf.keras.layers.Conv1D(filters=128, kernel_size = 7,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
     self.l6 = tf.keras.layers.MaxPool1D(2)
     
     ##### new layers 
-    self.l7 = tf.keras.layers.Conv1D(filters = 16, kernel_size = 3,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
+    self.l7 = tf.keras.layers.Conv1D(filters = 256, kernel_size = 7,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
     self.l8 = tf.keras.layers.MaxPool1D(2)
     
-    self.l9 = tf.keras.layers.Conv1D(filters = 32, kernel_size = 3,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
+    self.l9 = tf.keras.layers.Conv1D(filters = 512, kernel_size = 7,  kernel_regularizer=tf.keras.regularizers.L2(reg_val))
     self.l10 = tf.keras.layers.MaxPool1D(2)
     
     #####
@@ -59,6 +59,25 @@ class Conv1D(tf.keras.Model):
 
     return x 
   
+  def model(self, input_shape):
+    x =  tf.keras.layers.Input(shape = input_shape)
+    
+    return tf.keras.Model(inputs = [x], outputs = self.call(x))
+
+
+class LSTM(tf.keras.Model):
+  def __init__(self, **kwargs) -> None:
+    super(LSTM, self).__init__(**kwargs)
+
+    self.l1 = tf.keras.layers.LSTM(128)
+    self.l2 = tf.keras.layers.Dense(1)
+  
+  def call(self, input_tensor):
+    x = self.l1(input_tensor)
+    x = self.l2(x)
+
+    return x
+
   def model(self, input_shape):
     x =  tf.keras.layers.Input(shape = input_shape)
     
