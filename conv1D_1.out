@@ -1,0 +1,189 @@
+Model: "model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 365, 3)]          0         
+_________________________________________________________________
+conv1d_1 (Conv1D)            (None, 363, 8)            80        
+_________________________________________________________________
+max_pooling1d (MaxPooling1D) (None, 181, 8)            0         
+_________________________________________________________________
+conv1d_2 (Conv1D)            (None, 179, 8)            200       
+_________________________________________________________________
+max_pooling1d_1 (MaxPooling1 (None, 89, 8)             0         
+_________________________________________________________________
+conv1d_3 (Conv1D)            (None, 87, 16)            400       
+_________________________________________________________________
+max_pooling1d_2 (MaxPooling1 (None, 43, 16)            0         
+_________________________________________________________________
+conv1d_4 (Conv1D)            (None, 41, 16)            784       
+_________________________________________________________________
+max_pooling1d_3 (MaxPooling1 (None, 20, 16)            0         
+_________________________________________________________________
+conv1d_5 (Conv1D)            (None, 18, 32)            1568      
+_________________________________________________________________
+max_pooling1d_4 (MaxPooling1 (None, 9, 32)             0         
+_________________________________________________________________
+flatten (Flatten)            (None, 288)               0         
+_________________________________________________________________
+dense (Dense)                (None, 1)                 289       
+=================================================================
+Total params: 3,321
+Trainable params: 3,321
+Non-trainable params: 0
+_________________________________________________________________
+Start of epoch 0
+
+ Epoch 0: Train loss: 4.6315  Validation Loss: 3.4820, Train PCC: -0.0300, Validation PCC -0.0112
+Time taken for epoch 0 is 0.20 minutes
+Start of epoch 1
+
+ Epoch 1: Train loss: 4.4751  Validation Loss: 3.5026, Train PCC: -0.0302, Validation PCC -0.0135
+Time taken for epoch 1 is 0.25 minutes
+Start of epoch 2
+
+ Epoch 2: Train loss: 4.4206  Validation Loss: 3.4883, Train PCC: -0.0379, Validation PCC -0.0147
+Time taken for epoch 2 is 0.29 minutes
+Start of epoch 3
+
+ Epoch 3: Train loss: 4.3804  Validation Loss: 3.4841, Train PCC: -0.0416, Validation PCC -0.0181
+Time taken for epoch 3 is 0.34 minutes
+Start of epoch 4
+
+ Epoch 4: Train loss: 4.3329  Validation Loss: 3.4808, Train PCC: -0.0456, Validation PCC -0.0211
+Time taken for epoch 4 is 0.38 minutes
+Start of epoch 5
+
+ Epoch 5: Train loss: 4.2935  Validation Loss: 3.4905, Train PCC: -0.0511, Validation PCC -0.0266
+Time taken for epoch 5 is 0.43 minutes
+Start of epoch 6
+
+ Epoch 6: Train loss: 4.2469  Validation Loss: 3.5099, Train PCC: -0.0588, Validation PCC -0.0330
+Time taken for epoch 6 is 0.48 minutes
+Start of epoch 7
+
+ Epoch 7: Train loss: 4.1963  Validation Loss: 3.5305, Train PCC: -0.0651, Validation PCC -0.0410
+Time taken for epoch 7 is 0.52 minutes
+Start of epoch 8
+
+ Epoch 8: Train loss: 4.1425  Validation Loss: 3.5645, Train PCC: -0.0827, Validation PCC -0.0531
+Time taken for epoch 8 is 0.57 minutes
+Start of epoch 9
+
+ Epoch 9: Train loss: 4.0850  Validation Loss: 3.6102, Train PCC: -0.1051, Validation PCC -0.0675
+Time taken for epoch 9 is 0.61 minutes
+Start of epoch 10
+
+ Epoch 10: Train loss: 4.0247  Validation Loss: 3.6838, Train PCC: -0.1387, Validation PCC -0.0877
+Time taken for epoch 10 is 0.68 minutes
+Start of epoch 11
+
+ Epoch 11: Train loss: 3.9614  Validation Loss: 3.7426, Train PCC: -0.1614, Validation PCC -0.1054
+Time taken for epoch 11 is 0.73 minutes
+Start of epoch 12
+
+ Epoch 12: Train loss: 3.8993  Validation Loss: 3.8312, Train PCC: -0.1946, Validation PCC -0.1268
+Time taken for epoch 12 is 0.77 minutes
+Start of epoch 13
+
+ Epoch 13: Train loss: 3.8296  Validation Loss: 3.9214, Train PCC: -0.2119, Validation PCC -0.1522
+Time taken for epoch 13 is 0.82 minutes
+Start of epoch 14
+
+ Epoch 14: Train loss: 3.7731  Validation Loss: 4.0060, Train PCC: -0.2335, Validation PCC -0.1761
+Time taken for epoch 14 is 0.86 minutes
+Start of epoch 15
+
+ Epoch 15: Train loss: 3.7158  Validation Loss: 4.1077, Train PCC: -0.2579, Validation PCC -0.2094
+Time taken for epoch 15 is 0.91 minutes
+Start of epoch 16
+
+ Epoch 16: Train loss: 3.6671  Validation Loss: 4.1844, Train PCC: -0.2799, Validation PCC -0.2387
+Time taken for epoch 16 is 0.96 minutes
+Start of epoch 17
+
+ Epoch 17: Train loss: 3.6145  Validation Loss: 4.2602, Train PCC: -0.3222, Validation PCC -0.2561
+Time taken for epoch 17 is 1.00 minutes
+Start of epoch 18
+
+ Epoch 18: Train loss: 3.5623  Validation Loss: 4.3173, Train PCC: -0.3444, Validation PCC -0.3000
+Time taken for epoch 18 is 1.05 minutes
+Start of epoch 19
+
+ Epoch 19: Train loss: 3.5067  Validation Loss: 4.3971, Train PCC: -0.3661, Validation PCC -0.3466
+Time taken for epoch 19 is 1.09 minutes
+Start of epoch 20
+
+ Epoch 20: Train loss: 3.4642  Validation Loss: 4.4945, Train PCC: -0.3682, Validation PCC -0.3933
+Time taken for epoch 20 is 1.16 minutes
+Start of epoch 21
+
+ Epoch 21: Train loss: 3.4153  Validation Loss: 4.5439, Train PCC: -0.4032, Validation PCC -0.4207
+Time taken for epoch 21 is 1.21 minutes
+Start of epoch 22
+
+ Epoch 22: Train loss: 3.3766  Validation Loss: 4.5962, Train PCC: -0.4118, Validation PCC -0.4271
+Time taken for epoch 22 is 1.25 minutes
+Start of epoch 23
+
+ Epoch 23: Train loss: 3.3374  Validation Loss: 4.6654, Train PCC: -0.4579, Validation PCC -0.4816
+Time taken for epoch 23 is 1.30 minutes
+Start of epoch 24
+
+ Epoch 24: Train loss: 3.2949  Validation Loss: 4.7019, Train PCC: -0.4869, Validation PCC -0.5212
+Time taken for epoch 24 is 1.35 minutes
+Start of epoch 25
+
+ Epoch 25: Train loss: 3.2569  Validation Loss: 4.7837, Train PCC: -0.5147, Validation PCC -0.5678
+Time taken for epoch 25 is 1.39 minutes
+Start of epoch 26
+
+ Epoch 26: Train loss: 3.2167  Validation Loss: 4.8176, Train PCC: -0.5596, Validation PCC -0.5891
+Time taken for epoch 26 is 1.44 minutes
+Start of epoch 27
+
+ Epoch 27: Train loss: 3.1853  Validation Loss: 4.8362, Train PCC: -0.5745, Validation PCC -0.6051
+Time taken for epoch 27 is 1.48 minutes
+Start of epoch 28
+
+ Epoch 28: Train loss: 3.1548  Validation Loss: 4.8756, Train PCC: -0.6025, Validation PCC -0.6102
+Time taken for epoch 28 is 1.53 minutes
+Start of epoch 29
+
+ Epoch 29: Train loss: 3.1250  Validation Loss: 4.9087, Train PCC: -0.6171, Validation PCC -0.6241
+Time taken for epoch 29 is 1.58 minutes
+Start of epoch 30
+
+ Epoch 30: Train loss: 3.0996  Validation Loss: 4.9568, Train PCC: -0.6179, Validation PCC -0.6523
+Time taken for epoch 30 is 1.64 minutes
+Start of epoch 31
+
+ Epoch 31: Train loss: 3.0744  Validation Loss: 5.0119, Train PCC: -0.6294, Validation PCC -0.6723
+Time taken for epoch 31 is 1.69 minutes
+Start of epoch 32
+
+ Epoch 32: Train loss: 3.0461  Validation Loss: 5.0279, Train PCC: -0.6713, Validation PCC -0.6878
+Time taken for epoch 32 is 1.74 minutes
+Start of epoch 33
+
+ Epoch 33: Train loss: 3.0234  Validation Loss: 5.0677, Train PCC: -0.7651, Validation PCC -0.6881
+Time taken for epoch 33 is 1.78 minutes
+Start of epoch 34
+
+ Epoch 34: Train loss: 3.0019  Validation Loss: 5.0680, Train PCC: -0.7581, Validation PCC -0.6787
+Time taken for epoch 34 is 1.83 minutes
+Start of epoch 35
+
+ Epoch 35: Train loss: 2.9813  Validation Loss: 5.0769, Train PCC: -0.8508, Validation PCC -0.7012
+Time taken for epoch 35 is 1.87 minutes
+Start of epoch 36
+
+ Epoch 36: Train loss: 2.9601  Validation Loss: 5.0919, Train PCC: -0.8649, Validation PCC -0.6839
+Time taken for epoch 36 is 1.92 minutes
+Start of epoch 37
+
+ Epoch 37: Train loss: 2.9363  Validation Loss: 5.0820, Train PCC: -0.9459, Validation PCC -0.6839
+Time taken for epoch 37 is 1.96 minutes
+Start of epoch 38
+
+ Epoch 38: Train loss: 2.9154  Validation Loss: 5.0796, Train PCC: -1.0069, Validation PCC -0.6902
