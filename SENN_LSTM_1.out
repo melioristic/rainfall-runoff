@@ -1,0 +1,816 @@
+Model: "lstm_parametrizer"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 128)               67584     
+_________________________________________________________________
+dense (Dense)                (None, 1095)              141255    
+=================================================================
+Total params: 208,839
+Trainable params: 208,839
+Non-trainable params: 0
+_________________________________________________________________
+Start of epoch 0
+
+ Epoch 0: Train loss: 9.6867  Validation Loss: 7.4874, Train NSE: -0.4187, Validation NSE -0.3163
+Time taken for epoch 0 is 0.57 minutes
+Start of epoch 1
+
+ Epoch 1: Train loss: 8.1441  Validation Loss: 6.8299, Train NSE: -0.2089, Validation NSE -0.2244
+Time taken for epoch 1 is 0.13 minutes
+Start of epoch 2
+
+ Epoch 2: Train loss: 7.2878  Validation Loss: 6.3371, Train NSE: -0.0619, Validation NSE -0.1211
+Time taken for epoch 2 is 0.13 minutes
+Start of epoch 3
+
+ Epoch 3: Train loss: 6.6414  Validation Loss: 5.9375, Train NSE: 0.0242, Validation NSE -0.0365
+Time taken for epoch 3 is 0.13 minutes
+Start of epoch 4
+
+ Epoch 4: Train loss: 6.1402  Validation Loss: 5.6530, Train NSE: 0.0931, Validation NSE 0.0186
+Time taken for epoch 4 is 0.13 minutes
+Start of epoch 5
+
+ Epoch 5: Train loss: 5.7350  Validation Loss: 5.3754, Train NSE: 0.1712, Validation NSE 0.0849
+Time taken for epoch 5 is 0.13 minutes
+Start of epoch 6
+
+ Epoch 6: Train loss: 5.4166  Validation Loss: 5.1598, Train NSE: 0.2388, Validation NSE 0.1350
+Time taken for epoch 6 is 0.13 minutes
+Start of epoch 7
+
+ Epoch 7: Train loss: 5.1628  Validation Loss: 4.9662, Train NSE: 0.2888, Validation NSE 0.1797
+Time taken for epoch 7 is 0.13 minutes
+Start of epoch 8
+
+ Epoch 8: Train loss: 4.9445  Validation Loss: 4.7897, Train NSE: 0.3330, Validation NSE 0.2206
+Time taken for epoch 8 is 0.13 minutes
+Start of epoch 9
+
+ Epoch 9: Train loss: 4.7672  Validation Loss: 4.6588, Train NSE: 0.3699, Validation NSE 0.2476
+Time taken for epoch 9 is 0.13 minutes
+Start of epoch 10
+
+ Epoch 10: Train loss: 4.6109  Validation Loss: 4.5315, Train NSE: 0.4021, Validation NSE 0.2752
+Time taken for epoch 10 is 0.32 minutes
+Start of epoch 11
+
+ Epoch 11: Train loss: 4.4772  Validation Loss: 4.4319, Train NSE: 0.4286, Validation NSE 0.2944
+Time taken for epoch 11 is 0.13 minutes
+Start of epoch 12
+
+ Epoch 12: Train loss: 4.3562  Validation Loss: 4.3392, Train NSE: 0.4534, Validation NSE 0.3132
+Time taken for epoch 12 is 0.13 minutes
+Start of epoch 13
+
+ Epoch 13: Train loss: 4.2486  Validation Loss: 4.2581, Train NSE: 0.4754, Validation NSE 0.3292
+Time taken for epoch 13 is 0.13 minutes
+Start of epoch 14
+
+ Epoch 14: Train loss: 4.1495  Validation Loss: 4.1829, Train NSE: 0.4960, Validation NSE 0.3444
+Time taken for epoch 14 is 0.13 minutes
+Start of epoch 15
+
+ Epoch 15: Train loss: 4.0586  Validation Loss: 4.1134, Train NSE: 0.5151, Validation NSE 0.3583
+Time taken for epoch 15 is 0.13 minutes
+Start of epoch 16
+
+ Epoch 16: Train loss: 3.9731  Validation Loss: 4.0463, Train NSE: 0.5339, Validation NSE 0.3720
+Time taken for epoch 16 is 0.13 minutes
+Start of epoch 17
+
+ Epoch 17: Train loss: 3.8926  Validation Loss: 3.9810, Train NSE: 0.5525, Validation NSE 0.3856
+Time taken for epoch 17 is 0.13 minutes
+Start of epoch 18
+
+ Epoch 18: Train loss: 3.8156  Validation Loss: 3.9161, Train NSE: 0.5709, Validation NSE 0.3990
+Time taken for epoch 18 is 0.13 minutes
+Start of epoch 19
+
+ Epoch 19: Train loss: 3.7420  Validation Loss: 3.8499, Train NSE: 0.5896, Validation NSE 0.4126
+Time taken for epoch 19 is 0.13 minutes
+Start of epoch 20
+
+ Epoch 20: Train loss: 3.6738  Validation Loss: 3.7823, Train NSE: 0.6067, Validation NSE 0.4257
+Time taken for epoch 20 is 0.32 minutes
+Start of epoch 21
+
+ Epoch 21: Train loss: 3.6141  Validation Loss: 3.7155, Train NSE: 0.6202, Validation NSE 0.4369
+Time taken for epoch 21 is 0.13 minutes
+Start of epoch 22
+
+ Epoch 22: Train loss: 3.5645  Validation Loss: 3.6590, Train NSE: 0.6293, Validation NSE 0.4449
+Time taken for epoch 22 is 0.13 minutes
+Start of epoch 23
+
+ Epoch 23: Train loss: 3.5215  Validation Loss: 3.6153, Train NSE: 0.6372, Validation NSE 0.4519
+Time taken for epoch 23 is 0.13 minutes
+Start of epoch 24
+
+ Epoch 24: Train loss: 3.4893  Validation Loss: 3.5792, Train NSE: 0.6413, Validation NSE 0.4609
+Time taken for epoch 24 is 0.13 minutes
+Start of epoch 25
+
+ Epoch 25: Train loss: 3.4695  Validation Loss: 3.5780, Train NSE: 0.6385, Validation NSE 0.4658
+Time taken for epoch 25 is 0.13 minutes
+Start of epoch 26
+
+ Epoch 26: Train loss: 3.4508  Validation Loss: 3.5687, Train NSE: 0.6497, Validation NSE 0.4680
+Time taken for epoch 26 is 0.14 minutes
+Start of epoch 27
+
+ Epoch 27: Train loss: 3.4291  Validation Loss: 3.4792, Train NSE: 0.6294, Validation NSE 0.4787
+Time taken for epoch 27 is 0.13 minutes
+Start of epoch 28
+
+ Epoch 28: Train loss: 3.3521  Validation Loss: 3.4554, Train NSE: 0.6607, Validation NSE 0.4814
+Time taken for epoch 28 is 0.13 minutes
+Start of epoch 29
+
+ Epoch 29: Train loss: 3.3129  Validation Loss: 3.3947, Train NSE: 0.6783, Validation NSE 0.5027
+Time taken for epoch 29 is 0.13 minutes
+Start of epoch 30
+
+ Epoch 30: Train loss: 3.2880  Validation Loss: 3.3616, Train NSE: 0.6807, Validation NSE 0.5114
+Time taken for epoch 30 is 0.32 minutes
+Start of epoch 31
+
+ Epoch 31: Train loss: 3.2494  Validation Loss: 3.3304, Train NSE: 0.6853, Validation NSE 0.5159
+Time taken for epoch 31 is 0.13 minutes
+Start of epoch 32
+
+ Epoch 32: Train loss: 3.2177  Validation Loss: 3.3011, Train NSE: 0.6918, Validation NSE 0.5202
+Time taken for epoch 32 is 0.13 minutes
+Start of epoch 33
+
+ Epoch 33: Train loss: 3.1892  Validation Loss: 3.2862, Train NSE: 0.6990, Validation NSE 0.5213
+Time taken for epoch 33 is 0.13 minutes
+Start of epoch 34
+
+ Epoch 34: Train loss: 3.1703  Validation Loss: 3.2708, Train NSE: 0.7032, Validation NSE 0.5228
+Time taken for epoch 34 is 0.13 minutes
+Start of epoch 35
+
+ Epoch 35: Train loss: 3.1531  Validation Loss: 3.2465, Train NSE: 0.7036, Validation NSE 0.5266
+Time taken for epoch 35 is 0.13 minutes
+Start of epoch 36
+
+ Epoch 36: Train loss: 3.1344  Validation Loss: 3.2236, Train NSE: 0.7044, Validation NSE 0.5302
+Time taken for epoch 36 is 0.13 minutes
+Start of epoch 37
+
+ Epoch 37: Train loss: 3.1155  Validation Loss: 3.2064, Train NSE: 0.7081, Validation NSE 0.5329
+Time taken for epoch 37 is 0.13 minutes
+Start of epoch 38
+
+ Epoch 38: Train loss: 3.0999  Validation Loss: 3.1976, Train NSE: 0.7123, Validation NSE 0.5341
+Time taken for epoch 38 is 0.13 minutes
+Start of epoch 39
+
+ Epoch 39: Train loss: 3.0902  Validation Loss: 3.1952, Train NSE: 0.7147, Validation NSE 0.5343
+Time taken for epoch 39 is 0.13 minutes
+Start of epoch 40
+
+ Epoch 40: Train loss: 3.0886  Validation Loss: 3.1879, Train NSE: 0.7104, Validation NSE 0.5376
+Time taken for epoch 40 is 0.32 minutes
+Start of epoch 41
+
+ Epoch 41: Train loss: 3.0915  Validation Loss: 3.1998, Train NSE: 0.7004, Validation NSE 0.5396
+Time taken for epoch 41 is 0.13 minutes
+Start of epoch 42
+
+ Epoch 42: Train loss: 3.0807  Validation Loss: 3.2250, Train NSE: 0.7164, Validation NSE 0.5365
+Time taken for epoch 42 is 0.13 minutes
+Start of epoch 43
+
+ Epoch 43: Train loss: 3.0701  Validation Loss: 3.1627, Train NSE: 0.7173, Validation NSE 0.5451
+Time taken for epoch 43 is 0.13 minutes
+Start of epoch 44
+
+ Epoch 44: Train loss: 3.0384  Validation Loss: 3.1397, Train NSE: 0.7095, Validation NSE 0.5448
+Time taken for epoch 44 is 0.13 minutes
+Start of epoch 45
+
+ Epoch 45: Train loss: 3.0198  Validation Loss: 3.0903, Train NSE: 0.7216, Validation NSE 0.5573
+Time taken for epoch 45 is 0.13 minutes
+Start of epoch 46
+
+ Epoch 46: Train loss: 3.0081  Validation Loss: 3.0821, Train NSE: 0.7331, Validation NSE 0.5615
+Time taken for epoch 46 is 0.13 minutes
+Start of epoch 47
+
+ Epoch 47: Train loss: 2.9889  Validation Loss: 3.1057, Train NSE: 0.7371, Validation NSE 0.5580
+Time taken for epoch 47 is 0.13 minutes
+Start of epoch 48
+
+ Epoch 48: Train loss: 2.9730  Validation Loss: 3.0991, Train NSE: 0.7390, Validation NSE 0.5595
+Time taken for epoch 48 is 0.13 minutes
+Start of epoch 49
+
+ Epoch 49: Train loss: 2.9614  Validation Loss: 3.0628, Train NSE: 0.7331, Validation NSE 0.5656
+Time taken for epoch 49 is 0.13 minutes
+Start of epoch 50
+
+ Epoch 50: Train loss: 2.9474  Validation Loss: 3.0411, Train NSE: 0.7315, Validation NSE 0.5676
+Time taken for epoch 50 is 0.33 minutes
+Start of epoch 51
+
+ Epoch 51: Train loss: 2.9309  Validation Loss: 3.0343, Train NSE: 0.7407, Validation NSE 0.5680
+Time taken for epoch 51 is 0.13 minutes
+Start of epoch 52
+
+ Epoch 52: Train loss: 2.9209  Validation Loss: 3.0404, Train NSE: 0.7459, Validation NSE 0.5662
+Time taken for epoch 52 is 0.13 minutes
+Start of epoch 53
+
+ Epoch 53: Train loss: 2.9159  Validation Loss: 3.0508, Train NSE: 0.7481, Validation NSE 0.5634
+Time taken for epoch 53 is 0.13 minutes
+Start of epoch 54
+
+ Epoch 54: Train loss: 2.9114  Validation Loss: 3.0419, Train NSE: 0.7454, Validation NSE 0.5655
+Time taken for epoch 54 is 0.13 minutes
+Start of epoch 55
+
+ Epoch 55: Train loss: 2.9088  Validation Loss: 3.0254, Train NSE: 0.7381, Validation NSE 0.5701
+Time taken for epoch 55 is 0.13 minutes
+Start of epoch 56
+
+ Epoch 56: Train loss: 2.9053  Validation Loss: 3.0268, Train NSE: 0.7360, Validation NSE 0.5715
+Time taken for epoch 56 is 0.13 minutes
+Start of epoch 57
+
+ Epoch 57: Train loss: 2.8955  Validation Loss: 3.0280, Train NSE: 0.7476, Validation NSE 0.5727
+Time taken for epoch 57 is 0.13 minutes
+Start of epoch 58
+
+ Epoch 58: Train loss: 2.8798  Validation Loss: 3.0113, Train NSE: 0.7570, Validation NSE 0.5758
+Time taken for epoch 58 is 0.13 minutes
+Start of epoch 59
+
+ Epoch 59: Train loss: 2.8637  Validation Loss: 2.9906, Train NSE: 0.7567, Validation NSE 0.5783
+Time taken for epoch 59 is 0.13 minutes
+Start of epoch 60
+
+ Epoch 60: Train loss: 2.8546  Validation Loss: 2.9761, Train NSE: 0.7534, Validation NSE 0.5783
+Time taken for epoch 60 is 0.32 minutes
+Start of epoch 61
+
+ Epoch 61: Train loss: 2.8494  Validation Loss: 2.9737, Train NSE: 0.7541, Validation NSE 0.5761
+Time taken for epoch 61 is 0.13 minutes
+Start of epoch 62
+
+ Epoch 62: Train loss: 2.8452  Validation Loss: 2.9751, Train NSE: 0.7585, Validation NSE 0.5753
+Time taken for epoch 62 is 0.13 minutes
+Start of epoch 63
+
+ Epoch 63: Train loss: 2.8476  Validation Loss: 2.9788, Train NSE: 0.7558, Validation NSE 0.5762
+Time taken for epoch 63 is 0.13 minutes
+Start of epoch 64
+
+ Epoch 64: Train loss: 2.8558  Validation Loss: 2.9909, Train NSE: 0.7457, Validation NSE 0.5776
+Time taken for epoch 64 is 0.13 minutes
+Start of epoch 65
+
+ Epoch 65: Train loss: 2.8562  Validation Loss: 3.0151, Train NSE: 0.7480, Validation NSE 0.5760
+Time taken for epoch 65 is 0.13 minutes
+Start of epoch 66
+
+ Epoch 66: Train loss: 2.8482  Validation Loss: 2.9739, Train NSE: 0.7609, Validation NSE 0.5828
+Time taken for epoch 66 is 0.14 minutes
+Start of epoch 67
+
+ Epoch 67: Train loss: 2.8226  Validation Loss: 2.9716, Train NSE: 0.7613, Validation NSE 0.5774
+Time taken for epoch 67 is 0.13 minutes
+Start of epoch 68
+
+ Epoch 68: Train loss: 2.8050  Validation Loss: 2.9472, Train NSE: 0.7671, Validation NSE 0.5836
+Time taken for epoch 68 is 0.13 minutes
+Start of epoch 69
+
+ Epoch 69: Train loss: 2.8121  Validation Loss: 2.9270, Train NSE: 0.7623, Validation NSE 0.5896
+Time taken for epoch 69 is 0.13 minutes
+Start of epoch 70
+
+ Epoch 70: Train loss: 2.8047  Validation Loss: 2.9451, Train NSE: 0.7637, Validation NSE 0.5881
+Time taken for epoch 70 is 0.32 minutes
+Start of epoch 71
+
+ Epoch 71: Train loss: 2.7922  Validation Loss: 2.9602, Train NSE: 0.7711, Validation NSE 0.5847
+Time taken for epoch 71 is 0.13 minutes
+Start of epoch 72
+
+ Epoch 72: Train loss: 2.7821  Validation Loss: 2.9385, Train NSE: 0.7715, Validation NSE 0.5882
+Time taken for epoch 72 is 0.13 minutes
+Start of epoch 73
+
+ Epoch 73: Train loss: 2.7712  Validation Loss: 2.9085, Train NSE: 0.7667, Validation NSE 0.5926
+Time taken for epoch 73 is 0.13 minutes
+Start of epoch 74
+
+ Epoch 74: Train loss: 2.7641  Validation Loss: 2.8991, Train NSE: 0.7671, Validation NSE 0.5922
+Time taken for epoch 74 is 0.13 minutes
+Start of epoch 75
+
+ Epoch 75: Train loss: 2.7617  Validation Loss: 2.9083, Train NSE: 0.7721, Validation NSE 0.5900
+Time taken for epoch 75 is 0.13 minutes
+Start of epoch 76
+
+ Epoch 76: Train loss: 2.7658  Validation Loss: 2.9249, Train NSE: 0.7691, Validation NSE 0.5881
+Time taken for epoch 76 is 0.13 minutes
+Start of epoch 77
+
+ Epoch 77: Train loss: 2.7700  Validation Loss: 2.9283, Train NSE: 0.7624, Validation NSE 0.5905
+Time taken for epoch 77 is 0.13 minutes
+Start of epoch 78
+
+ Epoch 78: Train loss: 2.7682  Validation Loss: 2.9316, Train NSE: 0.7640, Validation NSE 0.5913
+Time taken for epoch 78 is 0.13 minutes
+Start of epoch 79
+
+ Epoch 79: Train loss: 2.7588  Validation Loss: 2.9089, Train NSE: 0.7783, Validation NSE 0.5940
+Time taken for epoch 79 is 0.13 minutes
+Start of epoch 80
+
+ Epoch 80: Train loss: 2.7350  Validation Loss: 2.9171, Train NSE: 0.7818, Validation NSE 0.5885
+Time taken for epoch 80 is 0.32 minutes
+Start of epoch 81
+
+ Epoch 81: Train loss: 2.7287  Validation Loss: 2.9003, Train NSE: 0.7813, Validation NSE 0.5918
+Time taken for epoch 81 is 0.13 minutes
+Start of epoch 82
+
+ Epoch 82: Train loss: 2.7367  Validation Loss: 2.8803, Train NSE: 0.7739, Validation NSE 0.5968
+Time taken for epoch 82 is 0.13 minutes
+Start of epoch 83
+
+ Epoch 83: Train loss: 2.7370  Validation Loss: 2.8977, Train NSE: 0.7720, Validation NSE 0.5958
+Time taken for epoch 83 is 0.13 minutes
+Start of epoch 84
+
+ Epoch 84: Train loss: 2.7305  Validation Loss: 2.9248, Train NSE: 0.7800, Validation NSE 0.5911
+Time taken for epoch 84 is 0.13 minutes
+Start of epoch 85
+
+ Epoch 85: Train loss: 2.7226  Validation Loss: 2.8911, Train NSE: 0.7815, Validation NSE 0.5973
+Time taken for epoch 85 is 0.13 minutes
+Start of epoch 86
+
+ Epoch 86: Train loss: 2.7052  Validation Loss: 2.8614, Train NSE: 0.7785, Validation NSE 0.6009
+Time taken for epoch 86 is 0.13 minutes
+Start of epoch 87
+
+ Epoch 87: Train loss: 2.6967  Validation Loss: 2.8669, Train NSE: 0.7848, Validation NSE 0.5971
+Time taken for epoch 87 is 0.13 minutes
+Start of epoch 88
+
+ Epoch 88: Train loss: 2.7024  Validation Loss: 2.8919, Train NSE: 0.7856, Validation NSE 0.5915
+Time taken for epoch 88 is 0.13 minutes
+Start of epoch 89
+
+ Epoch 89: Train loss: 2.7110  Validation Loss: 2.8911, Train NSE: 0.7769, Validation NSE 0.5947
+Time taken for epoch 89 is 0.13 minutes
+Start of epoch 90
+
+ Epoch 90: Train loss: 2.7132  Validation Loss: 2.8935, Train NSE: 0.7684, Validation NSE 0.5982
+Time taken for epoch 90 is 0.32 minutes
+Start of epoch 91
+
+ Epoch 91: Train loss: 2.7104  Validation Loss: 2.8907, Train NSE: 0.7870, Validation NSE 0.5977
+Time taken for epoch 91 is 0.13 minutes
+Start of epoch 92
+
+ Epoch 92: Train loss: 2.6884  Validation Loss: 2.8933, Train NSE: 0.7917, Validation NSE 0.5920
+Time taken for epoch 92 is 0.13 minutes
+Start of epoch 93
+
+ Epoch 93: Train loss: 2.6710  Validation Loss: 2.8646, Train NSE: 0.7891, Validation NSE 0.5987
+Time taken for epoch 93 is 0.13 minutes
+Start of epoch 94
+
+ Epoch 94: Train loss: 2.6798  Validation Loss: 2.8524, Train NSE: 0.7871, Validation NSE 0.6006
+Time taken for epoch 94 is 0.13 minutes
+Start of epoch 95
+
+ Epoch 95: Train loss: 2.6895  Validation Loss: 2.8690, Train NSE: 0.7817, Validation NSE 0.5984
+Time taken for epoch 95 is 0.13 minutes
+Start of epoch 96
+
+ Epoch 96: Train loss: 2.6876  Validation Loss: 2.9017, Train NSE: 0.7800, Validation NSE 0.5953
+Time taken for epoch 96 is 0.13 minutes
+Start of epoch 97
+
+ Epoch 97: Train loss: 2.6868  Validation Loss: 2.8690, Train NSE: 0.7847, Validation NSE 0.6018
+Time taken for epoch 97 is 0.13 minutes
+Start of epoch 98
+
+ Epoch 98: Train loss: 2.6651  Validation Loss: 2.8441, Train NSE: 0.7924, Validation NSE 0.6032
+Time taken for epoch 98 is 0.13 minutes
+Start of epoch 99
+
+ Epoch 99: Train loss: 2.6422  Validation Loss: 2.8775, Train NSE: 0.7975, Validation NSE 0.5919
+Time taken for epoch 99 is 0.13 minutes
+Start of epoch 100
+
+ Epoch 100: Train loss: 2.6589  Validation Loss: 2.8636, Train NSE: 0.7941, Validation NSE 0.5959
+Time taken for epoch 100 is 0.32 minutes
+Start of epoch 101
+
+ Epoch 101: Train loss: 2.6683  Validation Loss: 2.8447, Train NSE: 0.7803, Validation NSE 0.6049
+Time taken for epoch 101 is 0.13 minutes
+Start of epoch 102
+
+ Epoch 102: Train loss: 2.6641  Validation Loss: 2.8869, Train NSE: 0.7841, Validation NSE 0.5984
+Time taken for epoch 102 is 0.13 minutes
+Start of epoch 103
+
+ Epoch 103: Train loss: 2.6618  Validation Loss: 2.8705, Train NSE: 0.7960, Validation NSE 0.5984
+Time taken for epoch 103 is 0.13 minutes
+Start of epoch 104
+
+ Epoch 104: Train loss: 2.6361  Validation Loss: 2.8378, Train NSE: 0.7917, Validation NSE 0.6019
+Time taken for epoch 104 is 0.13 minutes
+Start of epoch 105
+
+ Epoch 105: Train loss: 2.6229  Validation Loss: 2.8570, Train NSE: 0.7980, Validation NSE 0.5956
+Time taken for epoch 105 is 0.13 minutes
+Start of epoch 106
+
+ Epoch 106: Train loss: 2.6503  Validation Loss: 2.8535, Train NSE: 0.7940, Validation NSE 0.5973
+Time taken for epoch 106 is 0.13 minutes
+Start of epoch 107
+
+ Epoch 107: Train loss: 2.6534  Validation Loss: 2.8609, Train NSE: 0.7796, Validation NSE 0.6018
+Time taken for epoch 107 is 0.13 minutes
+Start of epoch 108
+
+ Epoch 108: Train loss: 2.6498  Validation Loss: 2.8809, Train NSE: 0.7897, Validation NSE 0.5990
+Time taken for epoch 108 is 0.13 minutes
+Start of epoch 109
+
+ Epoch 109: Train loss: 2.6422  Validation Loss: 2.8407, Train NSE: 0.7969, Validation NSE 0.6016
+Time taken for epoch 109 is 0.13 minutes
+Start of epoch 110
+
+ Epoch 110: Train loss: 2.6024  Validation Loss: 2.8635, Train NSE: 0.8003, Validation NSE 0.5926
+Time taken for epoch 110 is 0.33 minutes
+Start of epoch 111
+
+ Epoch 111: Train loss: 2.6196  Validation Loss: 2.8408, Train NSE: 0.8003, Validation NSE 0.6009
+Time taken for epoch 111 is 0.13 minutes
+Start of epoch 112
+
+ Epoch 112: Train loss: 2.6329  Validation Loss: 2.8308, Train NSE: 0.7875, Validation NSE 0.6074
+Time taken for epoch 112 is 0.13 minutes
+Start of epoch 113
+
+ Epoch 113: Train loss: 2.6183  Validation Loss: 2.8753, Train NSE: 0.7951, Validation NSE 0.5984
+Time taken for epoch 113 is 0.13 minutes
+Start of epoch 114
+
+ Epoch 114: Train loss: 2.6178  Validation Loss: 2.8374, Train NSE: 0.7981, Validation NSE 0.6031
+Time taken for epoch 114 is 0.13 minutes
+Start of epoch 115
+
+ Epoch 115: Train loss: 2.5872  Validation Loss: 2.8286, Train NSE: 0.7989, Validation NSE 0.6011
+Time taken for epoch 115 is 0.13 minutes
+Start of epoch 116
+
+ Epoch 116: Train loss: 2.5873  Validation Loss: 2.8470, Train NSE: 0.8055, Validation NSE 0.5964
+Time taken for epoch 116 is 0.13 minutes
+Start of epoch 117
+
+ Epoch 117: Train loss: 2.6080  Validation Loss: 2.8319, Train NSE: 0.7951, Validation NSE 0.6042
+Time taken for epoch 117 is 0.13 minutes
+Start of epoch 118
+
+ Epoch 118: Train loss: 2.5984  Validation Loss: 2.8491, Train NSE: 0.7914, Validation NSE 0.6048
+Time taken for epoch 118 is 0.13 minutes
+Start of epoch 119
+
+ Epoch 119: Train loss: 2.5960  Validation Loss: 2.8402, Train NSE: 0.8037, Validation NSE 0.6038
+Time taken for epoch 119 is 0.13 minutes
+Start of epoch 120
+
+ Epoch 120: Train loss: 2.5729  Validation Loss: 2.8324, Train NSE: 0.8039, Validation NSE 0.5998
+Time taken for epoch 120 is 0.32 minutes
+Start of epoch 121
+
+ Epoch 121: Train loss: 2.5594  Validation Loss: 2.8369, Train NSE: 0.8072, Validation NSE 0.5983
+Time taken for epoch 121 is 0.13 minutes
+Start of epoch 122
+
+ Epoch 122: Train loss: 2.5826  Validation Loss: 2.8179, Train NSE: 0.8024, Validation NSE 0.6060
+Time taken for epoch 122 is 0.13 minutes
+Start of epoch 123
+
+ Epoch 123: Train loss: 2.5793  Validation Loss: 2.8400, Train NSE: 0.7952, Validation NSE 0.6049
+Time taken for epoch 123 is 0.13 minutes
+Start of epoch 124
+
+ Epoch 124: Train loss: 2.5773  Validation Loss: 2.8503, Train NSE: 0.8039, Validation NSE 0.6018
+Time taken for epoch 124 is 0.13 minutes
+Start of epoch 125
+
+ Epoch 125: Train loss: 2.5664  Validation Loss: 2.8123, Train NSE: 0.8025, Validation NSE 0.6057
+Time taken for epoch 125 is 0.13 minutes
+Start of epoch 126
+
+ Epoch 126: Train loss: 2.5411  Validation Loss: 2.8357, Train NSE: 0.8084, Validation NSE 0.5970
+Time taken for epoch 126 is 0.13 minutes
+Start of epoch 127
+
+ Epoch 127: Train loss: 2.5629  Validation Loss: 2.8358, Train NSE: 0.8092, Validation NSE 0.5977
+Time taken for epoch 127 is 0.13 minutes
+Start of epoch 128
+
+ Epoch 128: Train loss: 2.5696  Validation Loss: 2.8240, Train NSE: 0.7959, Validation NSE 0.6069
+Time taken for epoch 128 is 0.13 minutes
+Start of epoch 129
+
+ Epoch 129: Train loss: 2.5633  Validation Loss: 2.8557, Train NSE: 0.8010, Validation NSE 0.6020
+Time taken for epoch 129 is 0.14 minutes
+Start of epoch 130
+
+ Epoch 130: Train loss: 2.5618  Validation Loss: 2.8210, Train NSE: 0.8068, Validation NSE 0.6034
+Time taken for epoch 130 is 0.32 minutes
+Start of epoch 131
+
+ Epoch 131: Train loss: 2.5260  Validation Loss: 2.8392, Train NSE: 0.8084, Validation NSE 0.5948
+Time taken for epoch 131 is 0.13 minutes
+Start of epoch 132
+
+ Epoch 132: Train loss: 2.5432  Validation Loss: 2.8295, Train NSE: 0.8117, Validation NSE 0.5993
+Time taken for epoch 132 is 0.13 minutes
+Start of epoch 133
+
+ Epoch 133: Train loss: 2.5585  Validation Loss: 2.8141, Train NSE: 0.8000, Validation NSE 0.6086
+Time taken for epoch 133 is 0.13 minutes
+Start of epoch 134
+
+ Epoch 134: Train loss: 2.5449  Validation Loss: 2.8619, Train NSE: 0.8052, Validation NSE 0.5989
+Time taken for epoch 134 is 0.13 minutes
+Start of epoch 135
+
+ Epoch 135: Train loss: 2.5512  Validation Loss: 2.8157, Train NSE: 0.8041, Validation NSE 0.6043
+Time taken for epoch 135 is 0.13 minutes
+Start of epoch 136
+
+ Epoch 136: Train loss: 2.5147  Validation Loss: 2.8248, Train NSE: 0.8082, Validation NSE 0.5983
+Time taken for epoch 136 is 0.13 minutes
+Start of epoch 137
+
+ Epoch 137: Train loss: 2.5278  Validation Loss: 2.8396, Train NSE: 0.8148, Validation NSE 0.5946
+Time taken for epoch 137 is 0.13 minutes
+Start of epoch 138
+
+ Epoch 138: Train loss: 2.5416  Validation Loss: 2.8189, Train NSE: 0.8025, Validation NSE 0.6059
+Time taken for epoch 138 is 0.13 minutes
+Start of epoch 139
+
+ Epoch 139: Train loss: 2.5286  Validation Loss: 2.8460, Train NSE: 0.8033, Validation NSE 0.6034
+Time taken for epoch 139 is 0.14 minutes
+Start of epoch 140
+
+ Epoch 140: Train loss: 2.5282  Validation Loss: 2.8169, Train NSE: 0.8101, Validation NSE 0.6035
+Time taken for epoch 140 is 0.31 minutes
+Start of epoch 141
+
+ Epoch 141: Train loss: 2.4933  Validation Loss: 2.8377, Train NSE: 0.8134, Validation NSE 0.5934
+Time taken for epoch 141 is 0.13 minutes
+Start of epoch 142
+
+ Epoch 142: Train loss: 2.5066  Validation Loss: 2.8170, Train NSE: 0.8151, Validation NSE 0.6018
+Time taken for epoch 142 is 0.13 minutes
+Start of epoch 143
+
+ Epoch 143: Train loss: 2.5150  Validation Loss: 2.8086, Train NSE: 0.8070, Validation NSE 0.6099
+Time taken for epoch 143 is 0.13 minutes
+Start of epoch 144
+
+ Epoch 144: Train loss: 2.5024  Validation Loss: 2.8442, Train NSE: 0.8134, Validation NSE 0.6008
+Time taken for epoch 144 is 0.13 minutes
+Start of epoch 145
+
+ Epoch 145: Train loss: 2.5025  Validation Loss: 2.8067, Train NSE: 0.8089, Validation NSE 0.6041
+Time taken for epoch 145 is 0.13 minutes
+Start of epoch 146
+
+ Epoch 146: Train loss: 2.4751  Validation Loss: 2.8176, Train NSE: 0.8131, Validation NSE 0.5990
+Time taken for epoch 146 is 0.13 minutes
+Start of epoch 147
+
+ Epoch 147: Train loss: 2.4951  Validation Loss: 2.8217, Train NSE: 0.8175, Validation NSE 0.5981
+Time taken for epoch 147 is 0.13 minutes
+Start of epoch 148
+
+ Epoch 148: Train loss: 2.4982  Validation Loss: 2.8190, Train NSE: 0.8082, Validation NSE 0.6046
+Time taken for epoch 148 is 0.13 minutes
+Start of epoch 149
+
+ Epoch 149: Train loss: 2.4957  Validation Loss: 2.8374, Train NSE: 0.8063, Validation NSE 0.6034
+Time taken for epoch 149 is 0.14 minutes
+Start of epoch 150
+
+ Epoch 150: Train loss: 2.4922  Validation Loss: 2.8073, Train NSE: 0.8125, Validation NSE 0.6052
+Time taken for epoch 150 is 0.32 minutes
+Start of epoch 151
+
+ Epoch 151: Train loss: 2.4628  Validation Loss: 2.8383, Train NSE: 0.8191, Validation NSE 0.5919
+Time taken for epoch 151 is 0.13 minutes
+Start of epoch 152
+
+ Epoch 152: Train loss: 2.4786  Validation Loss: 2.8126, Train NSE: 0.8189, Validation NSE 0.6014
+Time taken for epoch 152 is 0.13 minutes
+Start of epoch 153
+
+ Epoch 153: Train loss: 2.4795  Validation Loss: 2.8069, Train NSE: 0.8109, Validation NSE 0.6106
+Time taken for epoch 153 is 0.13 minutes
+Start of epoch 154
+
+ Epoch 154: Train loss: 2.4720  Validation Loss: 2.8372, Train NSE: 0.8185, Validation NSE 0.6006
+Time taken for epoch 154 is 0.13 minutes
+Start of epoch 155
+
+ Epoch 155: Train loss: 2.4660  Validation Loss: 2.8039, Train NSE: 0.8121, Validation NSE 0.6016
+Time taken for epoch 155 is 0.13 minutes
+Start of epoch 156
+
+ Epoch 156: Train loss: 2.4443  Validation Loss: 2.8203, Train NSE: 0.8166, Validation NSE 0.5963
+Time taken for epoch 156 is 0.13 minutes
+Start of epoch 157
+
+ Epoch 157: Train loss: 2.4739  Validation Loss: 2.8098, Train NSE: 0.8195, Validation NSE 0.6007
+Time taken for epoch 157 is 0.13 minutes
+Start of epoch 158
+
+ Epoch 158: Train loss: 2.4673  Validation Loss: 2.8266, Train NSE: 0.8110, Validation NSE 0.6032
+Time taken for epoch 158 is 0.13 minutes
+Start of epoch 159
+
+ Epoch 159: Train loss: 2.4756  Validation Loss: 2.8333, Train NSE: 0.8095, Validation NSE 0.6020
+Time taken for epoch 159 is 0.13 minutes
+Start of epoch 160
+
+ Epoch 160: Train loss: 2.4613  Validation Loss: 2.8038, Train NSE: 0.8134, Validation NSE 0.6035
+Time taken for epoch 160 is 0.33 minutes
+Start of epoch 161
+
+ Epoch 161: Train loss: 2.4397  Validation Loss: 2.8398, Train NSE: 0.8239, Validation NSE 0.5899
+Time taken for epoch 161 is 0.13 minutes
+Start of epoch 162
+
+ Epoch 162: Train loss: 2.4616  Validation Loss: 2.8062, Train NSE: 0.8193, Validation NSE 0.6029
+Time taken for epoch 162 is 0.13 minutes
+Start of epoch 163
+
+ Epoch 163: Train loss: 2.4489  Validation Loss: 2.8229, Train NSE: 0.8134, Validation NSE 0.6073
+Time taken for epoch 163 is 0.13 minutes
+Start of epoch 164
+
+ Epoch 164: Train loss: 2.4498  Validation Loss: 2.8174, Train NSE: 0.8195, Validation NSE 0.6013
+Time taken for epoch 164 is 0.13 minutes
+Start of epoch 165
+
+ Epoch 165: Train loss: 2.4226  Validation Loss: 2.8176, Train NSE: 0.8171, Validation NSE 0.5943
+Time taken for epoch 165 is 0.13 minutes
+Start of epoch 166
+
+ Epoch 166: Train loss: 2.4270  Validation Loss: 2.8129, Train NSE: 0.8228, Validation NSE 0.5974
+Time taken for epoch 166 is 0.13 minutes
+Start of epoch 167
+
+ Epoch 167: Train loss: 2.4460  Validation Loss: 2.7979, Train NSE: 0.8179, Validation NSE 0.6078
+Time taken for epoch 167 is 0.13 minutes
+Start of epoch 168
+
+ Epoch 168: Train loss: 2.4308  Validation Loss: 2.8406, Train NSE: 0.8203, Validation NSE 0.5996
+Time taken for epoch 168 is 0.13 minutes
+Start of epoch 169
+
+ Epoch 169: Train loss: 2.4419  Validation Loss: 2.7995, Train NSE: 0.8128, Validation NSE 0.6033
+Time taken for epoch 169 is 0.13 minutes
+Start of epoch 170
+
+ Epoch 170: Train loss: 2.4084  Validation Loss: 2.8162, Train NSE: 0.8214, Validation NSE 0.5964
+Time taken for epoch 170 is 0.32 minutes
+Start of epoch 171
+
+ Epoch 171: Train loss: 2.4301  Validation Loss: 2.8140, Train NSE: 0.8246, Validation NSE 0.5959
+Time taken for epoch 171 is 0.13 minutes
+Start of epoch 172
+
+ Epoch 172: Train loss: 2.4262  Validation Loss: 2.8190, Train NSE: 0.8184, Validation NSE 0.6021
+Time taken for epoch 172 is 0.13 minutes
+Start of epoch 173
+
+ Epoch 173: Train loss: 2.4296  Validation Loss: 2.8273, Train NSE: 0.8123, Validation NSE 0.6030
+Time taken for epoch 173 is 0.13 minutes
+Start of epoch 174
+
+ Epoch 174: Train loss: 2.4167  Validation Loss: 2.8053, Train NSE: 0.8214, Validation NSE 0.6007
+Time taken for epoch 174 is 0.13 minutes
+Start of epoch 175
+
+ Epoch 175: Train loss: 2.3944  Validation Loss: 2.8354, Train NSE: 0.8287, Validation NSE 0.5884
+Time taken for epoch 175 is 0.13 minutes
+Start of epoch 176
+
+ Epoch 176: Train loss: 2.4140  Validation Loss: 2.7888, Train NSE: 0.8227, Validation NSE 0.6076
+Time taken for epoch 176 is 0.13 minutes
+Start of epoch 177
+
+ Epoch 177: Train loss: 2.3981  Validation Loss: 2.8167, Train NSE: 0.8250, Validation NSE 0.6064
+Time taken for epoch 177 is 0.13 minutes
+Start of epoch 178
+
+ Epoch 178: Train loss: 2.4006  Validation Loss: 2.8136, Train NSE: 0.8247, Validation NSE 0.5986
+Time taken for epoch 178 is 0.13 minutes
+Start of epoch 179
+
+ Epoch 179: Train loss: 2.3782  Validation Loss: 2.8042, Train NSE: 0.8202, Validation NSE 0.5966
+Time taken for epoch 179 is 0.13 minutes
+Start of epoch 180
+
+ Epoch 180: Train loss: 2.3891  Validation Loss: 2.8053, Train NSE: 0.8281, Validation NSE 0.5978
+Time taken for epoch 180 is 0.32 minutes
+Start of epoch 181
+
+ Epoch 181: Train loss: 2.4022  Validation Loss: 2.8035, Train NSE: 0.8236, Validation NSE 0.6042
+Time taken for epoch 181 is 0.13 minutes
+Start of epoch 182
+
+ Epoch 182: Train loss: 2.3938  Validation Loss: 2.8354, Train NSE: 0.8234, Validation NSE 0.5990
+Time taken for epoch 182 is 0.13 minutes
+Start of epoch 183
+
+ Epoch 183: Train loss: 2.4032  Validation Loss: 2.7974, Train NSE: 0.8150, Validation NSE 0.6033
+Time taken for epoch 183 is 0.13 minutes
+Start of epoch 184
+
+ Epoch 184: Train loss: 2.3723  Validation Loss: 2.8136, Train NSE: 0.8291, Validation NSE 0.5955
+Time taken for epoch 184 is 0.13 minutes
+Start of epoch 185
+
+ Epoch 185: Train loss: 2.3927  Validation Loss: 2.8155, Train NSE: 0.8293, Validation NSE 0.5934
+Time taken for epoch 185 is 0.13 minutes
+Start of epoch 186
+
+ Epoch 186: Train loss: 2.3858  Validation Loss: 2.8166, Train NSE: 0.8232, Validation NSE 0.6025
+Time taken for epoch 186 is 0.13 minutes
+Start of epoch 187
+
+ Epoch 187: Train loss: 2.3916  Validation Loss: 2.8204, Train NSE: 0.8187, Validation NSE 0.6028
+Time taken for epoch 187 is 0.13 minutes
+Start of epoch 188
+
+ Epoch 188: Train loss: 2.3711  Validation Loss: 2.8117, Train NSE: 0.8274, Validation NSE 0.5942
+Time taken for epoch 188 is 0.13 minutes
+Start of epoch 189
+
+ Epoch 189: Train loss: 2.3591  Validation Loss: 2.8227, Train NSE: 0.8330, Validation NSE 0.5899
+Time taken for epoch 189 is 0.13 minutes
+Start of epoch 190
+
+ Epoch 190: Train loss: 2.3783  Validation Loss: 2.7858, Train NSE: 0.8263, Validation NSE 0.6093
+Time taken for epoch 190 is 0.33 minutes
+Start of epoch 191
+
+ Epoch 191: Train loss: 2.3605  Validation Loss: 2.8280, Train NSE: 0.8326, Validation NSE 0.6005
+Time taken for epoch 191 is 0.13 minutes
+Start of epoch 192
+
+ Epoch 192: Train loss: 2.3679  Validation Loss: 2.8030, Train NSE: 0.8244, Validation NSE 0.5971
+Time taken for epoch 192 is 0.13 minutes
+Start of epoch 193
+
+ Epoch 193: Train loss: 2.3419  Validation Loss: 2.8119, Train NSE: 0.8254, Validation NSE 0.5928
+Time taken for epoch 193 is 0.13 minutes
+Start of epoch 194
+
+ Epoch 194: Train loss: 2.3702  Validation Loss: 2.7973, Train NSE: 0.8326, Validation NSE 0.5988
+Time taken for epoch 194 is 0.13 minutes
+Start of epoch 195
+
+ Epoch 195: Train loss: 2.3636  Validation Loss: 2.8251, Train NSE: 0.8272, Validation NSE 0.5995
+Time taken for epoch 195 is 0.13 minutes
+Start of epoch 196
+
+ Epoch 196: Train loss: 2.3756  Validation Loss: 2.8242, Train NSE: 0.8225, Validation NSE 0.5992
+Time taken for epoch 196 is 0.13 minutes
+Start of epoch 197
+
+ Epoch 197: Train loss: 2.3578  Validation Loss: 2.8020, Train NSE: 0.8225, Validation NSE 0.5990
+Time taken for epoch 197 is 0.13 minutes
+Start of epoch 198
+
+ Epoch 198: Train loss: 2.3462  Validation Loss: 2.8129, Train NSE: 0.8356, Validation NSE 0.5917
+Time taken for epoch 198 is 0.13 minutes
+Start of epoch 199
+
+ Epoch 199: Train loss: 2.3580  Validation Loss: 2.8133, Train NSE: 0.8325, Validation NSE 0.5960
+Time taken for epoch 199 is 0.13 minutes
+Start of epoch 200
+
+ Epoch 200: Train loss: 2.3518  Validation Loss: 2.8228, Train NSE: 0.8250, Validation NSE 0.6027
+Time taken for epoch 200 is 0.32 minutes
