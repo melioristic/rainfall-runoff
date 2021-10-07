@@ -28,7 +28,11 @@ import matplotlib.pylab as plt
 from RR.metrics import NashSutcliffeEfficiency
 from RR.cfg import SAVE_FOLDER
 
-Xd, Yd, elp, flp, slp, area = read_data()
+
+
+catch_id = 2034
+
+Xd, Yd, elp, flp, slp, area = read_data(catch_id)
 
 Yd = Yd #flow changed to flow per unit area
 
@@ -92,8 +96,8 @@ val_dataset = tf_val_data.map(norm).map(cast)
 loss_object = tf.keras.losses.MeanSquaredError()
 
 eps = 0.01
-learning_rate = 2*1e-4
-eta = 0.01
+learning_rate = 2*1e-3
+eta = 1.0
 
 optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
 
@@ -164,8 +168,11 @@ def perform_validation():
             
             loss_reg = 0
             for l2_loss in model.losses:
-                loss_reg+= l2_loss
+                loss_reg+= l2_loss 
 
+            print(loss_y)
+            print(loss_theta)
+            print(loss_reg)
             loss_value = loss_y + eps*loss_theta  +eta*loss_reg
 
             losses.append(loss_value)
@@ -185,7 +192,7 @@ def perform_validation():
 
 epochs_val_losses, epochs_train_losses = [], []
 
-for epoch in range(201):
+for epoch in range(501):
     strt_time = time.time()
     # Run through  training batch
     print("Start of epoch %d" % (epoch))

@@ -6,7 +6,7 @@ module load GCCcore/.10.3.0
 module load Python
 module load TensorFlow
 
-
+module load scikit/2021-Python-3.8.5
 ```
 
 ## Notes
